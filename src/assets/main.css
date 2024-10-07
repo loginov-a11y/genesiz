@@ -1,0 +1,14 @@
+@import './base.css';
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-weight: normal;
+}
+.container{
+  padding: 5px;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: auto;
+}
