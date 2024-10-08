@@ -17,13 +17,14 @@ const store = useStore();
       <TheOutputTileComponent
           v-for="entity in store.entityArr"
           :entity="entity"
+          :key="entity.id"
       />
     </div>
   </div>
 </template>
 
 <style scoped lang="scss">
-.output-content {}
+
 .entity-list{
   padding: 10px;
   border: 1px solid #aaa;
