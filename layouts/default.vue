@@ -15,9 +15,9 @@ const store = useStore();
         v-if="store.entityArr.length !== 0"
     >
       <TheOutputTileComponent
-          v-for="entity in store.entityArr"
+          v-for="(entity, index) in store.entityArr"
           :entity="entity"
-          :key="entity.id"
+          :key="index"
       />
     </div>
   </div>
